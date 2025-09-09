@@ -1,9 +1,13 @@
 # Minimal requirements; adjust torch version for your CUDA
-torch
-torchvision
-numpy
-Pillow
-scikit-image
-tqdm
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+Pillow>=9.0.0
+scikit-image>=0.19.0
+tqdm>=4.64.0
+opencv-python>=4.5.0
 
-opencv-python
+# Development tools
+black>=22.0.0  # Code formatting
+flake8>=5.0.0  # Linting
+pytest>=7.0.0  # Testing
