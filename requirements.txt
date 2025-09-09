@@ -1,0 +1,9 @@
+# Minimal requirements; adjust torch version for your CUDA
+torch
+torchvision
+numpy
+Pillow
+scikit-image
+tqdm
+
+opencv-python
